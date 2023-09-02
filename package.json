@@ -1,17 +1,17 @@
 {
   "name": "local-tests-pw",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Playwright end-to-end tests for localcoding.us",
   "scripts": {
     "test:ci": "playwright test",
+    tests-practice
+    "test": "playwright test",
     "test:debug": "playwright test --headed",
     "report": "playwright show-report"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Dmitrii Bormotov",
   "license": "ISC",
-  "devDependencies": {
-    "@playwright/test": "^1.37.1"
+  "dependencies": {
+    "@playwright/test": "1.37.1"
   }
 }
