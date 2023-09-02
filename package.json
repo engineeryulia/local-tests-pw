@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Playwright end-to-end tests for localcoding.us",
   "scripts": {
+    "test:ci": "playwright test",
+    tests-practice
     "test": "playwright test",
     "test:debug": "playwright test --headed",
     "report": "playwright show-report"
